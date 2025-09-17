@@ -8,4 +8,12 @@ public class MemoriaUSB {
         this.nome = nome;
         this.capacidade = capacidade;
     }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public int getCapacidade() {
+        return this.capacidade;
+    }
 }
