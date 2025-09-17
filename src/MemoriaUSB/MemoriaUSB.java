@@ -1,6 +1,11 @@
 package src.MemoriaUSB;
 
 public class MemoriaUSB {
-    String nome;
-    int capacidade;
+    private String nome;
+    private int capacidade;
+
+    public MemoriaUSB(String nome, int capacidade){
+        this.nome = nome;
+        this.capacidade = capacidade;
+    }
 }
