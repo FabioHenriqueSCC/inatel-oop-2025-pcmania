@@ -38,4 +38,11 @@ public class Cliente {
 
         return comprados;
     }
+
+    public void newPC(Computador computador) {
+        if (computadorCount < computadores.length) {
+            computadores[computadorCount] = computador;
+            computadorCount++;
+        }
+    }
 }
