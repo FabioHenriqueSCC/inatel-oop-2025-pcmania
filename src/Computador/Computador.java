@@ -36,4 +36,8 @@ public class Computador {
     public void addMemoriaUSB(MemoriaUSB musb) {
         this.memoriaUSB = musb;
     }
+
+    public float getPreco() {
+        return this.preco;
+    }
 }
